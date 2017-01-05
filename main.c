@@ -3,7 +3,7 @@
 #include"MenuHandler.h"
 int main()
 {
-	struct Employee es;
+	Employee es;
 	int i;
 	int number,age,salary;
 	while(1)
@@ -13,7 +13,7 @@ int main()
 		printf("\t2. 사원 삭제\n");
 		printf("\t3. 전체 사원 출력\n");
 		printf("\t4. 끝내기\n\n");
-		printf("번호 입력 : \n");
+		printf("번호 입력 : ");
 		scanf("%d",&i);
 		if(i==1)
 		{
