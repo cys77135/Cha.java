@@ -7,6 +7,7 @@ Employee NewEmployee(int number, int age, int salary)
 	employee.number = number;
 	employee.age = age;
 	employee.salary = salary;
+	return employee;
 }
 
 void PrintEmployee(Employee employee)
