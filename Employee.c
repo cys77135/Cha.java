@@ -9,7 +9,7 @@ Employee NewEmployee(int number, int age, int salary)
 	employee.salary = salary;
 }
 
-void PrintEmployee(Employee employee);
+void PrintEmployee(Employee employee)
 {
 	printf("사원번호: %d\n", employee.number);
 	printf("나이: %d\n", employee.age);
